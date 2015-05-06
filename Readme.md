@@ -1,3 +1,3 @@
 #assignment02
 
-##Hopefully, a pixel perfect build of the surf & Paddle site
+A pixel perfect build of the surf & Paddle site. (Hopefully?)
