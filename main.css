@@ -1,6 +1,6 @@
 /* 
-font-family: 'Oswald', sans-serif;    --> header font
-font-family: 'Open Sans', sans-serif;   --> body font */
+font-family: 'Oswald', sans-serif; 300, 400, 700 --> header font
+font-family: 'Open Sans', sans-serif; 300, 400, 700 --> body font */
 .container {
 
 }
@@ -37,6 +37,7 @@ nav {
 
 .logo h3 {
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 	text-transform: uppercase;
 	font-size: 1.1em;
 	color: #083451;
@@ -66,16 +67,18 @@ nav {
 
 .header-title h1 {
 	font-family: 'Open Sans', sans-serif;
-	color: white;
-	font-size: 6.5em;
-	text-transform: uppercase;
-	margin-top: 9%;
-	margin-bottom: 0;
+  	color: white;
+  	font-size: 6.5em;
+  	font-weight: 300;
+  	letter-spacing: -0.04em;
+  	text-transform: uppercase;
+  	margin-top: 9%;
+  	margin-bottom: 0;
 }
 
 .header-title h2 {
 	font-family: 'Open Sans', sans-serif;
   	color: #083451;
   	font-size: 0.95em;
-  	margin-top: -1.4%;
+  		margin-top: -1.4%;
 }
