@@ -1,5 +1,47 @@
 /* 
 font-family: 'Oswald', sans-serif;    --> header font
 font-family: 'Open Sans', sans-serif;   --> body font */
+.container {
 
+}
 
+header {
+	background-image: url('assets/header.jpg');
+  	height: 523px;
+  	width: 1300px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+nav {
+	display: inline;	
+	width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-left {
+	float: left;
+}
+
+.logo {
+}
+
+.logo h3 {
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: #083451;
+	display: inline;
+	
+}
+
+.nav-right {
+	float: right;
+}
+
+.nav-right h3 {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	color: #083451;
+	display: inline-block;
+}
