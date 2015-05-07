@@ -52,8 +52,9 @@ nav {
 
 .nav-right {
 	float: right;
-  margin-right: 2.2%;
-	width: 200px;
+  background-color: orange;
+  /*margin-right: 2.2%;*/
+
 	/* margin-top: 0.3%;*/
 }
 
@@ -63,7 +64,7 @@ nav {
 }
 
 .search {
-  padding-right: 1%;
+
 }
 
 .nav-right h3 {
@@ -86,15 +87,15 @@ nav {
 
 .header-title h1 {
 	font-family: 'Ubuntu', sans-serif;
-  	color: white;
-  	font-size: 10em;
-  	font-weight: 300;
-  	/*letter-spacing: -0.01em;*/
-  	-webkit-transform: scale(1,1.1);
-  	text-transform: uppercase;
-  	margin-top: 140px;
-  	margin-bottom: 0;
-  	text-shadow: black 1px 1px;
+  color: white;
+  font-size: 10em;
+  font-weight: 300;
+  /*letter-spacing: -0.01em;*/
+  -webkit-transform: scale(1,1.1);
+  text-transform: uppercase;
+  margin-top: 140px;
+  margin-bottom: 0;
+  text-shadow: black 1px 1px;
 }
 
 .header-title h2 {
