@@ -2,7 +2,6 @@
 font-family: 'Oswald', sans-serif; 300, 400 --> header font
 font-family: 'Open Sans', sans-serif; 300, 400, 600 --> body font 
 font-family: 'Ubuntu', sans-serif; 400, 500, -->
-font-family: 'Ubuntu Condensed', sans-serif; -->
 */
 
 .container {
@@ -29,7 +28,7 @@ nav {
 }
 
 .logo {
-	margin-top: 1.2%;
+	margin-top: 2%;
   	margin-left: 50.3%;
   	width: 280px;
 }
@@ -53,10 +52,12 @@ nav {
 .nav-right {
 	float: right;
 	margin-right: 13%;
+	/* margin-top: 0.3%;*/
 }
 
 .nav-right h3 {
 	font-family: 'Oswald', sans-serif;
+	font-size: 1.1em;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #083451;
@@ -78,17 +79,19 @@ nav {
 .header-title h1 {
 	font-family: 'Ubuntu', sans-serif;
   	color: white;
-  	font-size: 6.5em;
+  	font-size: 6.18em;
   	font-weight: 300;
-  	letter-spacing: -0.04em;
+  	letter-spacing: 0;
+  	-webkit-transform: scale(1,1.1);
   	text-transform: uppercase;
-  	margin-top: 9%;
+  	margin-top: 10.5%;
   	margin-bottom: 0;
+  	text-shadow: black 1px 1px;
 }
 
 .header-title h2 {
 	font-family: 'Open Sans', sans-serif;
   	color: #083451;
-  	font-size: 0.95em;
-  	margin-top: -1.4%;
+  	font-size: 1em;
+  	margin-top: 0;
 }
