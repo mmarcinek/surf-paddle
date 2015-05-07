@@ -1,24 +1,24 @@
-/* 
+  /*
 font-family: 'Oswald', sans-serif; 300, 400 --> header font
-font-family: 'Open Sans', sans-serif; 300, 400, 600 --> body font 
+font-family: 'Open Sans', sans-serif; 300, 400, 600 --> body font
 font-family: 'Ubuntu', sans-serif; 400, 500, -->
 */
 
 .container {
-
+  font-size: 62.5%;
 }
 
 header {
 	background-image: url('assets/header.jpg');
   	height: 523px;
-  	width: 1300px;
+  	width: 90.5%;
   	margin-left: auto;
   	margin-right: auto;
 }
 
 nav {
-	display: inline-block;	
-	width: 1300px;
+	display: inline-block;
+	width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -28,9 +28,9 @@ nav {
 }
 
 .logo {
-	margin-top: 2%;
-  	margin-left: 50.3%;
-  	width: 280px;
+	margin-top: 7px;
+  margin-left: 50.7%;
+  width: 280px;
 }
 
 .logo img {
@@ -42,35 +42,42 @@ nav {
 	font-family: 'Ubuntu', sans-serif;
   	font-weight: 400;
   	text-transform: uppercase;
-  	font-size: 1.03em;
+  	font-size: 1.7em;
   	color: #083451;
-  	letter-spacing: -0.4px;
-  	padding-left: 3%;
+  	letter-spacing: -0.6px;
+  	padding-left: 4%;
   	display: inline-block;
+    vertical-align: middle;
 }
 
 .nav-right {
 	float: right;
-	margin-right: 12%;
-	width: 150px;
+  margin-right: 2.2%;
+	width: 200px;
 	/* margin-top: 0.3%;*/
+}
+
+
+.about, .search, .icon {
+  display: inline-block;
+}
+
+.search {
+  padding-right: 1%;
 }
 
 .nav-right h3 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 1.1em;
+	font-size: 1.8em;
 	font-weight: 400;
+  letter-spacing: -0.01em;
 	text-transform: uppercase;
 	color: #083451;
 	display: inline-block;
 }
 
-.nav-right img {
-	height: 18px;
-}
-
-#about {
-	margin-right: 6.5%;
+.icon {
+  height: 18px;
 }
 
 .header-title {
@@ -80,12 +87,12 @@ nav {
 .header-title h1 {
 	font-family: 'Ubuntu', sans-serif;
   	color: white;
-  	font-size: 6.18em;
+  	font-size: 10em;
   	font-weight: 300;
-  	letter-spacing: 0;
+  	/*letter-spacing: -0.01em;*/
   	-webkit-transform: scale(1,1.1);
   	text-transform: uppercase;
-  	margin-top: 10.5%;
+  	margin-top: 140px;
   	margin-bottom: 0;
   	text-shadow: black 1px 1px;
 }
@@ -93,6 +100,7 @@ nav {
 .header-title h2 {
 	font-family: 'Open Sans', sans-serif;
   	color: #083451;
-  	font-size: 1em;
-  	margin-top: 0;
+  	font-size: 1.5em;
+  	margin-top: -6px;
+    /*letter-spacing: -0.01em;*/
 }
