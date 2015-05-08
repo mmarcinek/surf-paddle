@@ -155,14 +155,7 @@ section h2 {
   font-size: 6.2em;
   line-height: 1.165em;
   margin-top: 60px;
-}
-
-p {
-  font-size: 1.63em;
-  color: #737C82;
-  font-family: 'Open-sans', sans-serif;
-  padding-right: 8.7%;
-  line-height: 1.6em;
+  margin-bottom: 2px;
 }
 
 .page-block1 {
@@ -173,9 +166,8 @@ p {
   /*background-color: orange;*/
   width: 100%;
   display: inline-block;
-  position: absolute;
-  bottom: -35px;
-  left: 5px;
+  margin-left: 1%;
+  margin-bottom: 12px;
 }
 
 .auth-footer h4 {
@@ -220,6 +212,14 @@ p {
 
 .text {
   clear: both;
-  margin-top: 12px;
+}
+
+p {
+  font-size: 1.63em;
+  color: #737C82;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6em;
+  margin-bottom: 25px;
+  padding-right: 8.7%;
 }
 
