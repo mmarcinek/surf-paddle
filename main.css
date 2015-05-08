@@ -124,7 +124,7 @@ nav {
 /*Global-Content
 ----------------*/
 .page-content {
-  width: 70%;
+  width: 68%;
   margin-left: auto;
   margin-right: auto;
   background-color: orange;
@@ -149,15 +149,37 @@ aside {
 /*Specific-content
 -------------------*/
 section h2 {
+  /*background-color: blue;*/
   font-family: Oswald, sans-serif;
   color: #083452;
   font-size: 6.2em;
+  line-height: 1.165em;
+  margin-top: 60px;
+}
+
+p {
+  font-size: 1.63em;
+  color: #737C82;
+  font-family: 'Open-sans', sans-serif;
+  padding-right: 8.7%;
+  line-height: 1.6em;
+}
+
+.page-block1 {
+  position: relative;
 }
 
 .auth-footer {
   /*background-color: orange;*/
   width: 100%;
   display: inline-block;
+  position: absolute;
+  bottom: -35px;
+  left: 5px;
+}
+
+.auth-footer h4 {
+  vertical-align: middle;
 }
 
 .avatar-sm img{
@@ -165,6 +187,7 @@ section h2 {
   /*background-color: blue;*/
   display: inline-block;
   float: left;
+  margin-top: 3px;
 }
 
 .auth-name {
@@ -172,11 +195,11 @@ section h2 {
   display: inline-block;
   float: left;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
   font-size: 1.2em;
-  line-height: 0px;
+  font-weight: 300;
+  line-height: 0;
+  margin-left: 1.2%;
   color: #106DB3;
-  vertical-align: middle;
 }
 
 .time-stamp {
@@ -184,10 +207,19 @@ section h2 {
   display: inline-block;
   float: left;
   font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
   font-weight: 300;
   line-height: 0;
+  margin-left: 3.5%;
   color: #BAC6CF;
 }
 
+.time-stamp a {
+  color: #BAC6CF;
+}
 
+.text {
+  clear: both;
+  margin-top: 12px;
+}
 
