@@ -6,6 +6,9 @@ font-family: 'Ubuntu', sans-serif; 400, 500, -->
 
 /*Global-Header
 ---------------*/
+* {
+    box-sizing: border-box;
+}
 
 .container {
   font-size: 62.5%;
@@ -124,12 +127,12 @@ nav {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  /*background-color: orange;*/
+  background-color: orange;
 }
 
-article {
+section {
   width: 70%;
-  /*background-color: blue;*/
+  background-color: blue;
   margin-left: auto;
   margin-right: auto;
   float: left;
@@ -137,7 +140,7 @@ article {
 
 aside {
   width: 30%;
-  /*background-color: green;*/
+  background-color: green;
   margin-left: auto;
   margin-right: auto;
   float: right;
