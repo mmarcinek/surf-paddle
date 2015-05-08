@@ -4,6 +4,9 @@ font-family: 'Open Sans', sans-serif; 300, 400, 600 --> body font
 font-family: 'Ubuntu', sans-serif; 400, 500, -->
 */
 
+/*Global
+---------*/
+
 .container {
   font-size: 62.5%;
 }
@@ -23,6 +26,12 @@ nav {
 	margin-right: auto;
 }
 
+/*Specific
+----------*/
+
+/*Header styles start here
+--------------------------*/
+
 .nav-left {
 	float: left;
 }
@@ -40,22 +49,21 @@ nav {
 
 .logo h3 {
 	font-family: 'Ubuntu', sans-serif;
-  	font-weight: 400;
-  	text-transform: uppercase;
-  	font-size: 1.7em;
-  	color: #083451;
-  	letter-spacing: -0.6px;
-  	padding-left: 4%;
-  	display: inline-block;
-    vertical-align: middle;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.7em;
+  color: #083451;
+  letter-spacing: -0.6px;
+  padding-left: 4%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .nav-right {
 	float: right;
   background-color: orange;
-  /*margin-right: 2.2%;*/
-
-	/* margin-top: 0.3%;*/
+  margin-right: 8.3%;
+  position: relative;
 }
 
 
@@ -63,9 +71,6 @@ nav {
   display: inline-block;
 }
 
-.search {
-
-}
 
 .nav-right h3 {
 	font-family: 'Oswald', sans-serif;
@@ -77,11 +82,19 @@ nav {
 	display: inline-block;
 }
 
+.about, .search {
+  margin: 0;
+}
+
+.search {
+}
+
 .icon {
   height: 18px;
 }
 
 .header-title {
+  clear: both;
 	text-align: center;
 }
 
@@ -105,3 +118,33 @@ nav {
   	margin-top: -6px;
     /*letter-spacing: -0.01em;*/
 }
+
+/*Header styles end hear
+------------------------*/
+
+/*Page content style start here
+-------------------------------*/
+
+.container-content {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: orange;*/
+}
+
+article {
+  width: 70%;
+  /*background-color: blue;*/
+  margin-left: auto;
+  margin-right: auto;
+  float: left;
+}
+
+aside {
+  width: 30%;
+  /*background-color: green;*/
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
