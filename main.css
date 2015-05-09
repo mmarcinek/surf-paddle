@@ -237,7 +237,7 @@ blockquote {
   border-left: 2px solid #D3D3D3;
 }
 
-.buttonWrapper {
+.launchRow {
 
 }
 
@@ -251,12 +251,14 @@ blockquote {
 
 .button a {
   color: white;
+  line-height: 8px;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
+  font-size: 1.3em;
 
 }
 
-.button img {
+.button .icon {
   background-color: #5E686F;
-  padding: 8px;
+  padding: 7px;
 }
