@@ -31,7 +31,7 @@ nav {
 
 ul {
   list-style-type: none;
-  /*padding-left: 0px;*/
+  padding-left: 0px;
 }
 
 a{
@@ -68,31 +68,23 @@ a{
 
 .nav-right {
 	float: right;
-  /*background-color: orange;*/
-  margin-right: 8.3%;
-  position: relative;
-}
-
-
-.about, .search, .icon {
   display: inline-block;
+  margin-top: 7px;
+  margin-right: 7.59%;
 }
 
-
-.nav-right h3 {
+.nav-right li {
 	font-family: 'Oswald', sans-serif;
 	font-size: 1.8em;
 	font-weight: 400;
   letter-spacing: -0.01em;
 	color: #083451;
 	display: inline-block;
+  margin-right: 9px;
 }
 
-.about, .search {
-  margin: 0;
-}
-
-.search {
+.about {
+  /*margin-right: 2%;*/
 }
 
 .search-icon {
@@ -317,7 +309,7 @@ aside h4 {
 
 .social {
   margin-top: 0;
-  margin-left: 18px;
+  margin-left: 57px;
 }
 
 .author li a{
