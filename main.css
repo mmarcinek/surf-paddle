@@ -137,6 +137,7 @@ section {
   margin-left: auto;
   margin-right: auto;
   float: left;
+  margin-bottom: 59px;
 }
 
 aside {
@@ -362,6 +363,44 @@ aside h4 {
   text-decoration: underline;
 }
 
+/*Section ends
+--------------*/
+
+/*Begin Posts
+-------------*/
+.post {
+  clear: both;
+  width: 90.5%;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid black;
+}
+
+.post h2 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 6.1em;
+  color: #083452;
+  margin-top: 25px;
+  letter-spacing: .02em;
+}
+
+.pic-row {
+  color: white;
+  margin: 0;
+
+}
+
+.box {
+  display: inline-block;
+  margin: 0;
+}
+
+/*Footer style starts
+----------------------*/
+footer {
+  clear: both;
+}
 
 
 
