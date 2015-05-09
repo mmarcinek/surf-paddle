@@ -155,7 +155,7 @@ aside {
   float: right;
 }
 
-/*Specific-content
+/*Left Specific-content
 -------------------*/
 section h2 {
   /*background-color: blue;*/
@@ -291,3 +291,105 @@ blockquote {
 .launchRow:hover .button {
   background-color: #106DB3;
 }
+
+/*End left specific content
+---------------------------*/
+aside {
+  margin: 0px;
+}
+
+.avatar {
+  text-align: center;
+  margin-left: 13px;
+  margin-top: 83px;
+}
+
+aside h4 {
+  color: #106DB3;
+  text-align: center;
+  margin-left: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.7em;
+  font-weight: 300;
+  margin-top: 9px;
+  margin-bottom: 0;
+}
+
+.social {
+  margin-top: 0;
+  margin-left: 18px;
+}
+
+.author li a{
+    color: #A3B3BF;
+}
+
+.author li {
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  margin-right: 12px;
+}
+
+.ad {
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 51px;
+}
+
+.about-ad a {
+  text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  color: #BAC6CF;
+  margin-left: 207px;
+  line-height: 27px;
+}
+
+.sidebar h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8em;
+  color: #106DB3;
+  margin-top: 40px;
+  margin-left: 13px;
+  margin-bottom: 0;
+}
+
+.sidebar-p {
+  margin-left: 13px;
+  font-size: 1.4em;
+  font-weight: 300;
+  margin-top: 5px;
+  padding-right: 0;
+  color: #A3B3BF;
+  line-height: 24px;
+}
+
+.sidebar-p > a {
+  color: #A3B3BF;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
