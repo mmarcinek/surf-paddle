@@ -388,12 +388,21 @@ aside h4 {
 .pic-row {
   color: white;
   margin: 0;
+  padding: 0;
 
 }
 
 .box {
   display: inline-block;
   margin: 0;
+}
+
+.box .box1 {
+  background-image: url('assets/article-image-1.jpg');
+  height: 330px;
+  width: 325px;
+  margin: 0;
+
 }
 
 /*Footer style starts
