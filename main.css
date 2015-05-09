@@ -29,6 +29,15 @@ nav {
 	margin-right: auto;
 }
 
+ul {
+  list-style-type: none;
+  /*padding-left: 0px;*/
+}
+
+a{
+  text-decoration: none;
+}
+
 /*Specific-header
 -----------------*/
 .nav-left {
@@ -86,7 +95,7 @@ nav {
 .search {
 }
 
-.icon {
+.search-icon {
   height: 18px;
 }
 
@@ -238,27 +247,47 @@ blockquote {
 }
 
 .launchRow {
+  margin-top: -6px;
+}
 
+#justify {
+  padding-left: 5px;
+}
+
+.buttonRow {
+  display: inline-block;
+  background-color: #A3B3BF;
+  height: 30px;
+  vertical-align: middle;
+  margin-right: 8px;
 }
 
 .button {
   display: inline-block;
-  background-color: #A3B3BF;
-  width: 30%;
-  height: 30px;
-  vertical-align: middle;
-}
-
-.button a {
+  text-align: center;
   color: white;
   line-height: 8px;
   font-family: 'Open Sans', sans-serif;
   text-decoration: none;
-  font-size: 1.3em;
-
+  font-size: 1.35em;
+  margin-top: 11px;
+  margin-right: 11px;
+  margin-left: 11px;
 }
 
-.button .icon {
+.icon {
+  display: inline-block;
   background-color: #5E686F;
-  padding: 7px;
+  padding: 7px 9px;
+  height: 30px;
+  width: 33px;
+  float: left;
+}
+
+.launchRow:hover .icon {
+  background-color: #083452;
+}
+
+.launchRow:hover .button {
+  background-color: #106DB3;
 }
