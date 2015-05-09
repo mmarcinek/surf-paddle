@@ -236,3 +236,27 @@ blockquote {
   padding-left: 2.2%;
   border-left: 2px solid #D3D3D3;
 }
+
+.buttonWrapper {
+
+}
+
+.button {
+  display: inline-block;
+  background-color: #A3B3BF;
+  width: 30%;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.button a {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+
+}
+
+.button img {
+  background-color: #5E686F;
+  padding: 8px;
+}
