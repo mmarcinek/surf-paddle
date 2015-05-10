@@ -176,6 +176,10 @@ section h2 {
   vertical-align: middle;
 }
 
+.auth-footer a {
+  text-decoration: underline;
+}
+
 .avatar-sm img{
   width: 22px;
   /*background-color: blue;*/
@@ -237,6 +241,12 @@ blockquote {
   padding-top: 6px;
   padding-left: 2.2%;
   border-left: 2px solid #D3D3D3;
+}
+
+a:hover .rollover {
+  height: 240px;
+  width: 320px;
+  background-image: url('http://www.hornallanderson.com/resources/uploads/blog/dude/dude_remixed.gif');
 }
 
 .launchRow {
@@ -385,28 +395,65 @@ aside h4 {
   letter-spacing: .02em;
 }
 
+figure {
+  display: inline-block;
+  float: left;
+  height: 330px;
+  width: 325px;
+  margin: -22px 0 0 0;
+  position: relative;
+}
 
-.pic-row {
+.fig1 {
+ background-image: url('assets/article-image-1.jpg');
+}
+
+.fig2 {
+ background-image: url('assets/article-image-2.jpg');
+}
+
+.fig3 {
+ background-image: url('assets/article-image-3.jpg');
+}
+
+.fig4 {
+ background-image: url('assets/article-image-4.jpg');
+}
+
+figcaption {
+ font-family: 'Oswald', sans-serif;
+ color: #083452;
+ font-size: 3em;
+ margin-top: 278px;
+ margin-left: 17px;
+ letter-spacing: -.01em;
+}
+
+#long {
+  margin-top: 244px;
+  line-height: 1.2;
+}
+
+figure:after {
+  background: #106DB3;
+  position: absolute;
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: .6;
+  content: "";
+}
+
+figure:hover:after {
+  opacity: 0;
+}
+
+figure:hover > figcaption {
   color: white;
-  margin-top: -22px;
-  margin-left: -2px;
-  padding: 0;
-
+  text-shadow: 1px 1px 1px black;
 }
 
-.box {
- float:left;
- position: relative;
-}
-
-
-.box::after {
-
-}
-
-/* see if .box::after adds text over image
-postion absolute relative to .box,
-after content:"text" top: -x left: 0 */
 
 /*Footer style starts
 ----------------------*/
