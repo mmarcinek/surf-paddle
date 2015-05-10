@@ -243,7 +243,7 @@ blockquote {
   border-left: 2px solid #D3D3D3;
 }
 
-a:hover .rollover {
+a:hover #rollover {
   height: 240px;
   width: 320px;
   background-image: url('http://www.hornallanderson.com/resources/uploads/blog/dude/dude_remixed.gif');
