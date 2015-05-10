@@ -385,30 +385,38 @@ aside h4 {
   letter-spacing: .02em;
 }
 
+
 .pic-row {
   color: white;
-  margin: 0;
+  margin-top: -22px;
+  margin-left: -2px;
   padding: 0;
 
 }
 
 .box {
-  display: inline-block;
-  margin: 0;
+ float:left;
+ position: relative;
 }
 
-.box .box1 {
-  background-image: url('assets/article-image-1.jpg');
-  height: 330px;
-  width: 325px;
-  margin: 0;
+
+.box::after {
 
 }
+
+/* see if .box::after adds text over image
+postion absolute relative to .box,
+after content:"text" top: -x left: 0 */
 
 /*Footer style starts
 ----------------------*/
 footer {
   clear: both;
+  height: 97px;
+  width: 90.5%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #083452;
 }
 
 
