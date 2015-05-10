@@ -17,7 +17,7 @@ font-family: 'Ubuntu', sans-serif; 400, 500, -->
 header {
 	background-image: url('assets/header.jpg');
   	height: 523px;
-  	width: 90.5%;
+  	width: 90.3%;
   	margin-left: auto;
   	margin-right: auto;
 }
@@ -50,7 +50,7 @@ a:hover {
 
 .logo {
 	margin-top: 6px;
-  margin-left: 50%;
+  margin-left: 50.5%;
   width: 280px;
 }
 
@@ -88,7 +88,11 @@ a:hover {
   letter-spacing: -0.01em;
 	color: #083451;
 	display: inline-block;
-  margin-right: 9px;
+  margin-right: 7px;
+}
+
+.about {
+  padding-right: 8px;
 }
 
 .search-icon {
@@ -139,6 +143,7 @@ section {
   margin-right: auto;
   float: left;
   margin-bottom: 59px;
+
 }
 
 aside {
@@ -146,6 +151,7 @@ aside {
   margin-left: auto;
   margin-right: auto;
   float: right;
+  margin-right: 2px;
 }
 
 /*Left Specific-content
@@ -157,10 +163,7 @@ section h2 {
   line-height: 1.165em;
   margin-top: 60px;
   margin-bottom: 2px;
-}
-
-.page-block1 {
-  position: relative;
+  margin-left: 2px;
 }
 
 .auth-footer {
@@ -196,8 +199,8 @@ section h2 {
   color: #106DB3;
 }
 
-/*Also style author link in the aside
--------------------------------------*/
+/*Also styles author link in the aside
+--------------------------------------*/
 #auth-clear {
   text-decoration: none;
   color: #106DB3;
@@ -240,6 +243,7 @@ p {
   line-height: 1.6em;
   margin-bottom: 25px;
   padding-right: 8.7%;
+  margin-left: 2px;
 }
 
 p a {
@@ -271,7 +275,7 @@ a:hover #rollover {
 }
 
 #justify {
-  padding-left: 5px;
+  padding-left: 7px;
 }
 
 .buttonRow {
@@ -322,14 +326,14 @@ aside {
 
 .avatar {
   text-align: center;
-  margin-left: 13px;
+  margin-left: 15px;
   margin-top: 83px;
 }
 
 aside h4 {
   color: #106DB3;
   text-align: center;
-  margin-left: 12px;
+  margin-left: 17px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.7em;
   font-weight: 300;
@@ -339,7 +343,7 @@ aside h4 {
 
 .social {
   margin-top: 0;
-  margin-left: 57px;
+  margin-left: 60px;
 }
 
 .author li a{
@@ -355,7 +359,7 @@ aside h4 {
 
 .ad {
   text-align: center;
-  margin-left: 10px;
+  margin-left: 12px;
   margin-top: 51px;
 }
 
@@ -364,7 +368,7 @@ aside h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 1.3em;
   color: #BAC6CF;
-  margin-left: 207px;
+  margin-left: 208px;
   line-height: 27px;
 }
 
@@ -373,12 +377,12 @@ aside h4 {
   font-size: 1.8em;
   color: #106DB3;
   margin-top: 40px;
-  margin-left: 13px;
+  margin-left: 16px;
   margin-bottom: 0;
 }
 
 .sidebar-p {
-  margin-left: 13px;
+  margin-left: 15px;
   font-size: 1.4em;
   font-weight: 300;
   margin-top: 5px;
@@ -409,7 +413,7 @@ aside h4 {
   font-family: 'Oswald', sans-serif;
   font-size: 6.1em;
   color: #083452;
-  margin-top: 25px;
+  margin-top: 24px;
   letter-spacing: .02em;
 }
 
@@ -418,7 +422,7 @@ figure {
   float: left;
   height: 330px;
   width: 325px;
-  margin: -22px 0 0 0;
+  margin: -21px 0 0 0;
   position: relative;
 }
 
@@ -487,12 +491,12 @@ footer {
 .footer-nav-left {
   float: left;
   width: 30%;
-  margin-left: 13.3%;
-  margin-top: 27px;
+  margin-left: 13.5%;
+  margin-top: 26px;
 }
 
 .footer-nav-left img {
-  vertical-align: -8px;
+  vertical-align: -9px;
 }
 
 .footer-nav-left h3 {
@@ -507,7 +511,7 @@ footer {
 
 .footer-nav-right {
   margin-top: 28px;
-  margin-right: 6.9%;
+  margin-right: 6.8%;
   float: right;
   width: 30%;
 }
