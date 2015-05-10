@@ -16,10 +16,10 @@ font-family: 'Ubuntu', sans-serif; 400, 500, -->
 
 header {
 	background-image: url('assets/header.jpg');
-  	height: 523px;
-  	width: 90.3%;
-  	margin-left: auto;
-  	margin-right: auto;
+  height: 523px;
+  width: 90.3%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
@@ -97,6 +97,10 @@ a:hover {
 
 .search-icon {
   height: 18px;
+}
+
+.logo-minified {
+  visibility: hidden;
 }
 
 .header-title {
