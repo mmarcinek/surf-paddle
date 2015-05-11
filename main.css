@@ -420,8 +420,8 @@ aside h4 {
 figure {
   display: inline-block;
   float: left;
-  height: 330px;
-  width: 325px;
+  height: 100%;
+  width: 25%;
   margin: -21px 0 0 0;
   position: relative;
 }
